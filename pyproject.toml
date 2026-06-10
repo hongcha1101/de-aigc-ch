@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "de-aigc-ch"
+version = "1.0.0"
+description = "去除中文写作中的 AI 味 — 基于学术研究的 AI 写作模式检测与消除工具"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "hongcha"}
+]
+requires-python = ">=3.8"
+
+[project.scripts]
+de-aigc-ch = "scripts.detect:main"
+
+[tool.setuptools.packages.find]
+include = ["scripts*"]
