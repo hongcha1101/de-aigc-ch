@@ -2,8 +2,6 @@
 
 去除中文写作中可预见的 AI 语病。基于 2025–2026 年最新学术研究，采用三层检测 + 五步工作流，系统识别和消除 AI 写作痕迹。
 
-**作者：** hongcha
-**许可：** 可广泛传播
 
 ---
 
@@ -65,7 +63,7 @@ de-aigc-ch/
 
 | 改前 | 改后 |
 |---|---|
-| ![](images/case1-1.png) | ![](images/case1-2.png) |
+| ![](images/case1-2.png) | ![](images/case1-1.png) |
 
 ### 案例二
 
@@ -77,7 +75,7 @@ de-aigc-ch/
 
 | 改前 | 改后 |
 |---|---|
-| ![](images/case3-1.png) | ![](images/case3-2.png) |
+| ![](images/case3-2.png) | ![](images/case3-1.png) |
 
 ---
 
@@ -167,3 +165,10 @@ python3 scripts/detect.py your_text.txt
 ---
 
 详见 [SKILL.md](SKILL.md)（完整工作流 + 全量规则）和 [references/](references/)（词表、句式库、学术依据、示例）。
+## 作者
+
+hongcha
+
+## license
+
+MIT   free    widely spread is ok
