@@ -2,7 +2,7 @@
 name: de-aigc-ch
 description: 去除中文写作中的 AI 味。基于研究发现的中文 AI 写作模式库，采用三层检测+五步工作流。适用于写文章、改稿、审阅内容时消除可预见的 AI 语病。
 metadata:
-  trigger: 中文写作、润稿、审阅内容、去AI味、中文AI检测
+  trigger: 中文写作、润稿、审阅内容、去AI味、中文AI检测、降低aigc率、aigc率、查重、去AI、降AI率
   author: hongcha 2026/6/10 
 ---
 
