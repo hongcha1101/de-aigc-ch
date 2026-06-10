@@ -1,13 +1,13 @@
-# 去AI味 · 中文版
+# de aigc ch
 
-去除中文写作中可预见的 AI 语病。基于 2025–2026 年最新学术研究，采用三层检测 + 五步工作流，系统识别和消除 AI 写作痕迹。
+去除中文写作中可预见的 AI 语病。基于近年的学术研究，采用三层检测 + 五步工作流，系统识别和消除 AI 写作痕迹。
 
 
 ---
 
 ## 触发关键词
 
-在 OpenCode 中说这些词会自动激活此 skill：
+这些词会自动激活此 skill：
 
 **中文写作、润稿、审阅内容、去AI味、中文AI检测、降低aigc率、aigc率、查重、去AI、降AI率**
 
@@ -165,10 +165,11 @@ python3 scripts/detect.py your_text.txt
 ---
 
 详见 [SKILL.md](SKILL.md)（完整工作流 + 全量规则）和 [references/](references/)（词表、句式库、学术依据、示例）。
+
 ## 作者
 
 hongcha
 
 ## license
 
-MIT   free    widely spread is ok
+MIT. Use freely, share widely.
